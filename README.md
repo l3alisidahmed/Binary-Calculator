@@ -1,9 +1,5 @@
 # Binary Calculator
 
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1rdf5EZ0IZIhEQtFCs73hwExiF_HRs-ou/view?usp=sharing)
-
-
-
 https://github.com/l3alisidahmed/Binary-Calculator/assets/99507636/747dba24-0ce5-4cdc-8213-218e1ae444ac
 
 
