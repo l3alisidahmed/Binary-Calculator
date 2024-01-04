@@ -1,5 +1,8 @@
 # Binary Calculator
 
+![Watch the video](./JavaFX%20App%202024-01-04%2003-33-44.mp4)
+
+
 This is a simple Binary Calculator implemented in JavaFX. The calculator allows users to convert between binary, decimal, hexadecimal, and octal number systems. It provides a user-friendly interface with dropdown menus for selecting the input and output bases.
 
 ## Features
