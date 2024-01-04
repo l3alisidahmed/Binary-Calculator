@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="380.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MainController">
+   <children>
+      <ComboBox fx:id="Comb1" layoutX="76.0" layoutY="126.0" onAction="#Action" prefWidth="150.0" promptText="Binary" />
+      <ComboBox fx:id="Comb2" layoutX="347.0" layoutY="126.0" onAction="#Comb2OnAction" prefWidth="150.0" promptText="Decimal" />
+      <TextField fx:id="TextFailed1" layoutX="50.0" layoutY="190.0" prefHeight="42.0" prefWidth="202.0" />
+      <TextField fx:id="TextFailed2" editable="false" layoutX="321.0" layoutY="190.0" prefHeight="42.0" prefWidth="202.0" />
+      <Button fx:id="ConvertirBtn" layoutX="188.0" layoutY="282.0" mnemonicParsing="false" onMouseClicked="#OnMouseClicked" prefHeight="42.0" prefWidth="194.0" style="-fx-background-color: #008F8C;" text="Convertir">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
+      <Text layoutX="129.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Binary Calculator" wrappingWidth="348.0">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
