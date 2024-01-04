@@ -1,6 +1,7 @@
 # Binary Calculator
 
-![Watch the video](https://drive.google.com/file/d/1rdf5EZ0IZIhEQtFCs73hwExiF_HRs-ou/view?usp=sharing)
+[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1rdf5EZ0IZIhEQtFCs73hwExiF_HRs-ou/view?usp=sharing)
+
 
 
 This is a simple Binary Calculator implemented in JavaFX. The calculator allows users to convert between binary, decimal, hexadecimal, and octal number systems. It provides a user-friendly interface with dropdown menus for selecting the input and output bases.
