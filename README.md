@@ -4,6 +4,9 @@
 
 
 
+https://github.com/l3alisidahmed/Binary-Calculator/assets/99507636/747dba24-0ce5-4cdc-8213-218e1ae444ac
+
+
 This is a simple Binary Calculator implemented in JavaFX. The calculator allows users to convert between binary, decimal, hexadecimal, and octal number systems. It provides a user-friendly interface with dropdown menus for selecting the input and output bases.
 
 ## Features
