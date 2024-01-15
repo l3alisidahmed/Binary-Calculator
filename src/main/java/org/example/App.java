@@ -19,4 +19,8 @@ public class App extends Application {
         stage.setScene(scene);
         stage.show();
     }
+
+    public MainController getController() {
+        return new MainController();
+    }
 }
