@@ -10,6 +10,7 @@ import static org.junit.Assert.assertEquals;
 public class BinaryCalculatorSteps {
     private MainController main = new MainController();
     private String binaryInput;
+    private String octalInput;
     private String baseString;
     private String result;
 
@@ -19,12 +20,27 @@ public class BinaryCalculatorSteps {
     }
 
     @When("^converted to octal$")
-    public void convertTo() {
+    public void convertToOctal() {
         result = main.convertBinary(binaryInput, "octal");
     }
 
-    @Then("^the result should be \\\"([^\\\"]*)\\\"$")
-    public void theResultShouldBe(String expectedOutput) {
+    @Then("^the converted result should be \\\"([^\\\"]*)\\\"$")
+    public void theResultShouldBe66(String expectedOutput) {
+        assertEquals(expectedOutput, result);
+    }
+
+    @Given("^octal input \\\"([^\\\"]*)\\\"$")
+    public void OctalInput(String octalInput) {
+        this.octalInput = octalInput;
+    }
+
+    @When("^converted to binary$")
+    public void convertToBinary() {
+        result = main.convertOctal(octalInput, "binary");
+    }
+
+    @Then("^the result should be \"([^\"]*)\"$")
+    public void theResultShouldBe111(String expectedOutput) {
         assertEquals(expectedOutput, result);
     }
 
